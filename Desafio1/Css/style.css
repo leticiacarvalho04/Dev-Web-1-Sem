@@ -1,0 +1,39 @@
+/**{
+    margin-left: 50px;
+}    */
+
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url(img/fundo.png);
+    padding-top: 20px;
+}
+
+.link{
+    float: right;
+    padding-top: 25px;
+
+}
+
+p{
+    text-align: justify;
+}
+
+#img-capa{
+    padding-top: 30px;
+    padding-inline: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+/*.aparece mais de uma vez
+#aparece só uma vez*/
+
+#img-fundo{
+    background-image: url(img/fundo2.png);
+}
+
+h4{
+    text-align: center;
+}
