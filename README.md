@@ -7,7 +7,10 @@
 <div align ="center">
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Badge Linguagem](http://img.shields.io/static/v1?label=Linguagem&message=PYTHON&color=blue&style=for-the-badge)
+![Badge Linguagem](http://img.shields.io/static/v1?label=Linguagens&message=PYTHON&color=blue&style=for-the-badge)
+![Badge Linguagem](http://img.shields.io/static/v1?label=Linguagens&message=HTML&color=red&style=for-the-badge)
+![Badge Linguagem](http://img.shields.io/static/v1?label=Linguagens&message=CSS&color=purple&style=for-the-badge)
+
 
 </div>
 
