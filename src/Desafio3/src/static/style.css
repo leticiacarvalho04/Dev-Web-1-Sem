@@ -1,0 +1,48 @@
+/**{
+    margin-left: 50px;
+}    */
+body{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.link{
+    float: right;
+    padding-top: 30px;
+}
+
+p{
+    width: 90%;
+}
+
+
+#img-logo{
+    margin-top: 10px;
+
+}
+
+#menu{
+    margin-bottom: 12px;
+}
+
+#capa{
+    padding-top: 20px;
+    width: 70px;
+    height: 50px;
+
+}
+/*.aparece mais de uma vez
+#aparece só uma vez*/
+
+#img-fundo2{
+    background-image: url(img/fundo2.png);
+}
+
+#img-fundo1{
+    background-image: url(img/fundo.png);
+}
+
+h4{
+    text-align: center;
+}
