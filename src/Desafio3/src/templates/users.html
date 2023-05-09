@@ -1,0 +1,66 @@
+{% extends "base.html" %} 
+
+{% block conteudo %} 
+
+<body id="img-fundo2">
+
+    <div>
+        <img src="/static/img/logo.png" alt="logo">
+
+        <div class="link">
+            <a href="/">Home|</a>
+            <a href="/quemsomos">Quem somos|</a>
+            <a href="/contato">Contato |</a>
+            <a href="/users"> Usuários </a>
+        </div>
+        
+    </div>
+    <br>
+
+    <div>
+        <table>
+            <thead>
+
+                <tr>
+                    <th>E-mail</th>
+                    <th>Assunto</th>
+                    <th>Descrição</th>
+                </tr>
+            
+            </thead>
+            
+            {% for user in userDetails %}
+            
+            <tbody>
+                <tr>
+                    <td>{{user[0]}}</td>
+                    <td>{{user[1]}}</td>
+                    <td>{{user[2]}}</td>
+                </tr>
+            </tbody>
+            
+            {% endfor %} 
+        </table>
+    </div>
+
+
+<script type="text/javscript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#users').DataTable({
+            'language':{
+                'lengthMenu': 'Mostrando_MENU_registros por página',
+                'zeroRecords': 'Nada encontrado',
+                'info': 'Mostrando página _PAGE_ de _PAGES_',
+                'infoEmpty': 'Nenhum registro disponível',
+                'infoFiltered': '(filtrado de _MAX_ registros no total)'
+            }
+        })
+    })
+</script>
+
+{% endblock %}

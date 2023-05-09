@@ -46,3 +46,29 @@ p{
 h4{
     text-align: center;
 }
+
+table, td, tr {
+    align-items: center;
+    padding-top: 8px;
+    line-height: 1;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+th{
+    text-align: center;
+    padding: 8px;
+}
+
+td{
+    text-align: left;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 35%;
+    margin-top: 20px;
+    height: 100%;
+}
