@@ -6,9 +6,9 @@
 
 <div align ="center">
 
-![Badge Desafio3](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Badge Flask](http://img.shields.io/static/v1?label=Flask&message=Flask&color=blue&style=for-the-badge)
-![Badge MySQL](http://img.shields.io/static/v1?label=MySQL&message=MySQL&color=red&style=for-the-badge)
+![Badge Desafio3](http://img.shields.io/static/v1?label=STATUS&message=Completo&color=GREEN&style=for-the-badge)
+![Badge Ambiente](http://img.shields.io/static/v1?label=Flask&message=Flask&color=blue&style=for-the-badge)
+![Badge Banco de dados](http://img.shields.io/static/v1?label=MySQL&message=MySQL&color=red&style=for-the-badge)
 
 
 </div>
