@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      MYSQL_DATABASE: Faculdade
+      MYSQL_USER: root
+      MYSQL_PASSWORD: fatec23
+      MYSQL_HOST: localhost
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: Faculdade
+      MYSQL_USER: root
+      MYSQL_PASSWORD: fatec23
