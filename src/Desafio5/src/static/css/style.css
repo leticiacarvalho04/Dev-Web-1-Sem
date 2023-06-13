@@ -324,5 +324,11 @@ table {
         margin: auto;
         padding: 0;
     }
+    table{
+        margin: 0 auto;
+        padding: 0;
+        justify-content: left;
+        width: 30%;
+    }
   }
   
